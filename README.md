@@ -1,13 +1,15 @@
 # microservices-springboot
-Add employee 
-Microservices, also known as Microservices Architecture, 
-is basically an SDLC approach in which large applications are built as a collection of small functional modules. 
-It is one of the most widely adopted architectural concepts within software development. 
-In addition to helping in easy maintenance, this architecture also makes development faster. 
-Additionally, microservices are also a big asset for the latest methods of software development such as DevOps and Agile.
-Furthermore, it helps deliver large, complex applications promptly, frequently, and reliably. 
-Applications are modeled as collections of services, which are: 
+1) UserService
+2)HotelService
+3)RatingService
+4)ServiceRegistry
 
+Eureka server
+Eureka Server is an application that holds the information about all client-service applications. 
+Every Micro service will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address. 
+Eureka Server is also known as Discovery Server.
+
+# microservices
 Maintainable and testable
 Loosely coupled
 Independently deployable
