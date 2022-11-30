@@ -3,6 +3,7 @@
 2)HotelService
 3)RatingService
 4)ServiceRegistry
+5)client
 
 Eureka server
 Eureka Server is an application that holds the information about all client-service applications. 
